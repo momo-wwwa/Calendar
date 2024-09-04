@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    color: #666;
+}
+
+.head {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head a {
+    margin: 0 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.head a:hover {
+    text-decoration: underline;
+}
+
+.head .title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    color: #333;
+}
+
+td a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.holiday {
+    background-color: #fce4e4;
+    color: #d9534f;
+}
+
+.weekday {
+    background-color: #fff;
+}
+
+.saturday {
+    background-color: #e4f2fc;
+    color: #5bc0de;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#popup h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#popup form {
+    margin-top: 20px;
+}
+
+#popup form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+#popup form input[type="text"],
+#popup form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+#popup form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#popup form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#popup button {
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#popup button:hover {
+    background-color: #5a6268;
+}
+
+#scheduleDetails {
+    margin: 20px 0;
+    text-align: left;
+}
+
+#scheduleDetails p {
+    margin: 5px 0;
+}
+
